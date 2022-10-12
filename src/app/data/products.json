@@ -1,0 +1,52 @@
+{
+    "data": [
+        {
+            "_id": 1,
+            "name": "Camiseta",
+            "price": 10,
+            "img": "../../../assets/img/camiseta.jpg"
+        },
+        {
+            "_id": 2,
+            "name": "Short",
+            "price": 22,
+            "img": "../../../assets/img/short.webp"
+        },
+        {
+            "_id": 3,
+            "name": "Jacket",
+            "price": 10,
+            "img": "../../../assets/img/jacket.jpg"
+        },
+        {
+            "_id": 4,
+            "name": "Medias",
+            "price": 10,
+            "img": "../../../assets/img/medias.jpg"
+        },
+        {
+            "_id": 5,
+            "name": "Camiseta",
+            "price": 10,
+            "img": "../../../assets/img/camiseta.jpg"
+        },
+        {
+            "_id": 6,
+            "name": "Short",
+            "price": 22,
+            "img": "../../../assets/img/short.webp"
+        },
+        {
+            "_id": 7,
+            "name": "Jacket",
+            "price": 10,
+            "img": "../../../assets/img/jacket.jpg"
+        },
+        {
+            "_id": 8,
+            "name": "Medias",
+            "price": 10,
+            "img": "../../../assets/img/medias.jpg"
+        }
+    ]
+}

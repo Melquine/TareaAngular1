@@ -1,0 +1,20 @@
+<div class="container mb-5 usuario">
+    <h3>Usuario administrador</h3>
+    <div class="data-cont">
+        <h5>Nombre: {{usuario.name}}</h5>
+        <h5>Edad: {{usuario.edad}}</h5>
+    </div>
+    <div class="btn-cont">
+        <button class="btn btn-primary" (click)="incrementarEdad()">Incrementar Edad</button>
+        <button class="btn btn-secondary" (click)="decrementarEdad()">Decrementar Edad</button>
+    </div>
+
+    <div>
+        <span *ngIf="usuario.edad >= 18;else nextItem">
+            <div class="alert alert-success">{{usuario.name}} tú "si" pudes ir a la fiesta</div>
+        </span>
+        <ng-template #nextItem>
+            <div class="alert alert-danger">{{usuario.name}} tú "No" pudes ir a la fiesta</div>    
+        </ng-template>
+    </div>
+</div>
